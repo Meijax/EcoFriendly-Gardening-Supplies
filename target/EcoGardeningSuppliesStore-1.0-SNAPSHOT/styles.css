@@ -1,0 +1,235 @@
+/* General styling */
+body {
+    font-family: 'Helvetica Neue', sans-serif; /* Sets the font family for the entire page */
+    background-color: #f4f1e9; /* Light beige background color for the body */
+    color: #4b3e35; /* Dark brown color for the text */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Bold font weight for the brand name in the navbar */
+    color: #8d6e63 !important; /* Light brown color for the brand name, using !important to override other styles */
+}
+
+.nav-link {
+    font-size: 1.1rem; /* Slightly larger font size for the navigation links */
+    color: #8d6e63 !important; /* Light brown color for the navigation links, using !important to override other styles */
+}
+
+/* Custom header styling */
+.custom-header {
+    background-color: #556b2f !important; /* Dark olive green background color for custom headers */
+    color: white; /* White text color for custom headers */
+    padding: 5rem 0; /* Padding of 5rem on top and bottom for custom headers */
+    text-align: center; /* Centered text alignment for custom headers */
+}
+
+header {
+    background-color: #556b2f; /* Dark olive green background color for the header */
+    color: white; /* White text color for the header */
+    padding: 5rem 0; /* Padding of 5rem on top and bottom for the header */
+    text-align: center; /* Centered text alignment for the header */
+}
+
+header h1 {
+    font-size: 3rem; /* Large font size for header h1 */
+}
+
+header p {
+    font-size: 1.25rem; /* Medium font size for header p */
+}
+
+.card {
+    border: none; /* No border for the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+    border-radius: 10px; /* Rounded corners with a radius of 10px */
+    overflow: hidden; /* Hidden overflow to maintain card shape */
+    background-color: white; /* White background color for the card */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slightly moves the card upwards when hovered */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Adds shadow effect when hovered */
+}
+
+.card img {
+    width: 100%; /* Full width for card images */
+    max-height: 200px; /* Maximum height of 200px for card images */
+    object-fit: contain; /* Ensures the image maintains its aspect ratio */
+    object-position: center; /* Centers the image within its container */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Font size for card title */
+    font-weight: bold; /* Bold font weight for card title */
+}
+
+.card-text {
+    font-size: 1rem; /* Font size for card text */
+    color: #6c757d; /* Gray color for card text */
+}
+
+.card-weight {
+    font-size: 1rem; /* Font size for card weight */
+    color: #6c757d; /* Same gray color as card text */
+}
+
+.card-description {
+    font-size: 0.9rem; /* Slightly smaller font size for card description */
+    color: #6c757d; /* Gray color for card description */
+}
+
+.card-text strong {
+    font-weight: bold; /* Bold font weight for strong text within card text */
+    color: #4b3e35; /* Same dark brown color as general text */
+}
+
+.btn-primary {
+    background-color: #6d4c41; /* Dark brown background color for primary buttons */
+    border-color: #6d4c41; /* Dark brown border color for primary buttons */
+}
+
+.btn-primary:hover {
+    background-color: #5d4037; /* Darker brown background color for primary buttons when hovered */
+    border-color: #4e342e; /* Darker brown border color for primary buttons when hovered */
+}
+
+.btn-danger {
+    background-color: #a93226; /* Red background color for danger buttons */
+    border-color: #a93226; /* Red border color for danger buttons */
+}
+
+.btn-danger:hover {
+    background-color: #922b21; /* Darker red background color for danger buttons when hovered */
+    border-color: #7b241c; /* Darker red border color for danger buttons when hovered */
+}
+
+footer {
+    background-color: #4e342e; /* Dark brown background color for the footer */
+    color: white; /* White text color for the footer */
+    padding: 1rem 0; /* Padding of 1rem on top and bottom for the footer */
+}
+
+footer p {
+    margin: 0; /* Removes default margin for footer paragraph */
+}
+
+/* Custom styling for cart dropdown menu */
+.cart-dropdown-menu {
+    min-width: 300px; /* Minimum width of 300px for the cart dropdown menu */
+    background-color: white; /* White background color for the cart dropdown menu */
+    border: 1px solid #dee2e6; /* Light gray border for the cart dropdown menu */
+}
+
+.cart-dropdown-menu .dropdown-item {
+    display: flex; /* Flexbox layout for dropdown items */
+    justify-content: space-between; /* Space between items within the dropdown */
+    align-items: center; /* Center items vertically within the dropdown */
+    padding: 0.5rem 1rem; /* Padding of 0.5rem on top and bottom, and 1rem on left and right */
+    white-space: normal; /* Normal white-space handling for dropdown items */
+}
+
+.cart-dropdown-menu .dropdown-item form {
+    margin: 0; /* Removes default margin for forms within the dropdown */
+}
+
+/* Styling for collapsible product categories */
+.btn-category {
+    text-decoration: none; /* Removes underline from category buttons */
+    color: #6d4c41; /* Dark brown color for category buttons */
+    font-size: 1.5rem; /* Font size for category buttons */
+    font-weight: bold; /* Bold font weight for category buttons */
+    background-color: transparent; /* Transparent background for category buttons */
+    border: none; /* No border for category buttons */
+    padding: 0; /* No padding for category buttons */
+}
+
+.btn-category:hover {
+    color: #5d4037; /* Darker brown color for category buttons when hovered */
+}
+
+.card-header {
+    background-color: #f5f5f5; /* Light gray background color for card headers */
+    border-bottom: 1px solid #e0e0e0; /* Light gray bottom border for card headers */
+}
+
+/* Custom styling for product images */
+.product-img {
+    width: 100%; /* Full width for product images */
+    height: auto; /* Auto height for product images */
+    max-height: 200px; /* Maximum height of 200px for product images */
+    object-fit: contain; /* Ensures the image maintains its aspect ratio */
+    object-position: center; /* Centers the image within its container */
+}
+
+/* Additional styling for better visual integration */
+.collapse {
+    margin-top: 1rem; /* Top margin of 1rem for collapsible elements */
+}
+
+.card-body {
+    text-align: center; /* Centered text alignment for card body */
+}
+
+h2, h3 {
+    font-weight: bold; /* Bold font weight for h2 and h3 elements */
+    color: #4b3e35; /* Dark brown color for h2 and h3 elements */
+}
+
+h3 {
+    font-size: 1.75rem; /* Font size for h3 elements */
+}
+
+button:focus {
+    outline: none; /* Removes default outline for focused buttons */
+    box-shadow: none; /* Removes default box shadow for focused buttons */
+}
+
+.btn-link {
+    font-size: 1.5rem; /* Font size for link buttons */
+    color: #6d4c41; /* Dark brown color for link buttons */
+    text-decoration: none; /* Removes underline from link buttons */
+}
+
+.btn-link:hover {
+    color: #5d4037; /* Darker brown color for link buttons when hovered */
+    text-decoration: underline; /* Adds underline to link buttons when hovered */
+}
+
+/* Styling for the "Read More" button */
+.btn-read-more {
+    background-color: #6d4c41; /* Dark brown background color for the "Read More" button */
+    color: white; /* White text color for the "Read More" button */
+    border: none; /* No border for the "Read More" button */
+    padding: 0.5rem 1rem; /* Padding of 0.5rem on top and bottom, and 1rem on left and right */
+    font-size: 1rem; /* Font size for the "Read More" button */
+    border-radius: 5px; /* Rounded corners with a radius of 5px */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.btn-read-more:hover {
+    background-color: #5d4037; /* Darker brown background color for the "Read More" button when hovered */
+}
+
+/* Notification styling */
+.notification {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position for the notification */
+    top: 70px; /* Adjusted top position to avoid navbar overlap */
+    right: 20px; /* Right position for the notification */
+    background-color: #4CAF50; /* Green background color for the notification */
+    color: white; /* White text color for the notification */
+    padding: 15px; /* Padding for the notification */
+    border-radius: 5px; /* Rounded corners with a radius of 5px */
+    z-index: 1000; /* High z-index to ensure visibility */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow effect */
+    transition: opacity 0.5s ease-in-out; /* Smooth transition for opacity change */
+}
+
+.notification.show {
+    display: block; /* Displays the notification */
+    opacity: 1; /* Full opacity for visible notification */
+}
+
+.notification.hide {
+    opacity: 0; /* Zero opacity for hidden notification */
+}
